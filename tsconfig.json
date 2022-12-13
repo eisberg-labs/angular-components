@@ -12,6 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "paths": {
       "ngx-barcode-scanner": [

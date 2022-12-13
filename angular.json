@@ -3,5 +3,101 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ngx-size-me": {
+      "projectType": "library",
+      "root": "projects/ngx-size-me",
+      "sourceRoot": "projects/ngx-size-me/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-size-me/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-size-me/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-size-me/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-size-me/src/test.ts",
+            "tsConfig": "projects/ngx-size-me/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-size-me/karma.conf.js"
+          }
+        }
+      }
+    },
+    "ngx-strength-meter": {
+      "projectType": "library",
+      "root": "projects/ngx-strength-meter",
+      "sourceRoot": "projects/ngx-strength-meter/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-strength-meter/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-strength-meter/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-strength-meter/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-strength-meter/src/test.ts",
+            "tsConfig": "projects/ngx-strength-meter/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-strength-meter/karma.conf.js"
+          }
+        }
+      }
+    },
+    "ngx-barcode-scanner": {
+      "projectType": "library",
+      "root": "projects/ngx-barcode-scanner",
+      "sourceRoot": "projects/ngx-barcode-scanner/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-barcode-scanner/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-barcode-scanner/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-barcode-scanner/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-barcode-scanner/src/test.ts",
+            "tsConfig": "projects/ngx-barcode-scanner/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-barcode-scanner/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "e27667d2-faba-42c4-855f-82ccadfb993f"
   }
 }

@@ -3,5 +3,6 @@
   "dest": "../../dist/ngx-barcode-scanner",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": ["@ericblade/quagga2"]
 }

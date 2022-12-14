@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/eisberg-labs/angular-components/issues"
   },
-  "homepage": "https://github.com/eisberg-labs/angular-components",
+  "homepage": "https://github.com/eisberg-labs/angular-components/tree/main/projects/ngx-strength-meter",
   "keywords": [
     "angular",
     "javascript",

@@ -18,8 +18,8 @@
   "bugs": {
     "url": "https://github.com/eisberg-labs/angular-components/issues"
   },
-  "homepage": "https://github.com/eisberg-labs/angular-components",
-  "description": "Angular 9+ barcode scanner component using Quagga",
+  "homepage": "https://github.com/eisberg-labs/angular-components/tree/main/projects/ngx-barcode-scanner",
+  "description": "Angular barcode scanner component using Quagga",
   "keywords": [
     "angular",
     "ngx",

@@ -6,7 +6,7 @@
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
-    "@angular/core": "^14.2.0",
+    "@angular/core": "^15.0.0",
     "rxjs": ">=7.5.0"
   },
   "author": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/eisberg-labs/angular-components/issues"
   },
-  "homepage": "https://github.com/eisberg-labs/angular-components",
+  "homepage": "https://github.com/eisberg-labs/angular-components/tree/main/projects/ngx-size-me",
   "keywords": [
     "angular",
     "javascript",

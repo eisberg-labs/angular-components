@@ -1,5 +1,5 @@
 # Ngx Barcode Scanner
-> Angular 9+ Barcode scanner using [Quagga](https://github.com/ericblade/quagga2).
+> Angular Barcode scanner using [Quagga](https://github.com/ericblade/quagga2).
 
 If you 👍 this project, consider giving it a ★, thanks! 🙌
 

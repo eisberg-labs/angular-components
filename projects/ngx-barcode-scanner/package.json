@@ -3,8 +3,8 @@
   "version": "4.0.0",
   "private": false,
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0"
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0"
   },
   "dependencies": {
     "@ericblade/quagga2": "^1.7.7",
@@ -18,8 +18,8 @@
   "bugs": {
     "url": "https://github.com/eisberg-labs/angular-components/issues"
   },
-  "homepage": "https://github.com/eisberg-labs/angular-components",
-  "description": "Angular 9+ barcode scanner component using Quagga",
+  "homepage": "https://github.com/eisberg-labs/angular-components/tree/main/projects/ngx-barcode-scanner",
+  "description": "Angular barcode scanner component using Quagga",
   "keywords": [
     "angular",
     "ngx",

@@ -8,8 +8,8 @@
     "zxcvbn": "^4.4.2"
   },
   "peerDependencies": {
-    "@angular/core": "^14.2.12",
-    "@angular/common": "^14.2.12"
+    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0"
   },
   "author": {
     "name": "Ana Bujan Eisberg Labs",

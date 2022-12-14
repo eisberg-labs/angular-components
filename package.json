@@ -23,13 +23,13 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "zxcvbn": "4.4.2",
-    "element-resize-detector": "^1.2.4",
     "@angular-devkit/build-angular": "^14.2.10",
     "@angular/cli": "~14.2.10",
     "@angular/compiler-cli": "^14.2.0",
     "@ericblade/quagga2": "1.7.7",
     "@types/jasmine": "~4.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "element-resize-detector": "^1.2.4",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
@@ -38,9 +38,15 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "lerna": "^6.1.0",
     "ng-packagr": "=14.2.0",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "zxcvbn": "4.4.2"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "projects/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

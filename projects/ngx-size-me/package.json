@@ -29,5 +29,8 @@
     "responsive",
     "element resize detector"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "projects/*"
+  ]
 }

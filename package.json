@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-all": "for PROJ in $(cat angular.json | jq -r '.projects | keys[]'); do ng build $PROJ; done",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --watch false",
     "lint": "ng lint"
@@ -32,12 +33,11 @@
     "@angular-eslint/template-parser": "15.1.0",
     "@angular/cli": "~15.0.3",
     "@angular/compiler-cli": "^15.0.3",
-    "@ericblade/quagga2": "1.7.7",
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "5.44.0",
     "@typescript-eslint/parser": "5.44.0",
+    "commitizen": "^4.2.6",
     "cz-conventional-changelog": "^3.3.0",
-    "element-resize-detector": "^1.2.4",
     "eslint": "^8.28.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
@@ -47,8 +47,7 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "lerna": "^6.1.0",
     "ng-packagr": "15.0.3",
-    "typescript": "~4.8.4",
-    "zxcvbn": "4.4.2"
+    "typescript": "~4.8.4"
   },
   "workspaces": [
     "projects/*"

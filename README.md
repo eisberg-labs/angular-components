@@ -12,5 +12,14 @@ repository contains custom Angular components that we use in our projects.
 [Visit for examples and documentation](https://www.amarjanica.com/projects/angular-components).
 
 
+## Publishing
+
+```
+npm test
+npm run build-all
+lerna version --no-private
+lerna publish from-git --no-private
+lerna publish from-package --registry https://npm.pkg.github.com
+```
 ## License
 MIT © [Eisberg Labs](http://www.eisberg-labs.com)

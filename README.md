@@ -1,25 +1,19 @@
-[![CI](https://github.com/eisberg-labs/angular-components/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/eisberg-labs/angular-components/actions/workflows/ci.yml)
 # Angular Components
 
-Welcome to Eisberg Labs Angular Components,
-repository contains custom Angular components that we use in our projects.
+Welcome to Eisberg Labs Angular Components, currently a placeholder repository linking to my angular project submodules.
 
-[Barcode Scanner](./projects/ngx-barcode-scanner)  
-[Ngx Size Me](./projects/ngx-size-me)  
-[Ngx Strength Meter](./projects/ngx-strength-meter)  
+I wrote about [why I switched to monorepo](https://www.amarjanica.com/switch-to-monorepo-with-lerna-and-rollup),
+and now I'm telling you it's a bad idea - if the projects are unrelated.
 
-## Demo and Documentation
-[Visit for examples and documentation](https://www.amarjanica.com/projects/angular-components).
+What I should have focused on is :
+- There are services that are free and [check for outdated dependencies](https://www.amarjanica.com/how-i-didnt-keep-my-open-source-libraries-up-to-date).
+- There are Github actions that can automate everything.
+
+Overall, lerna and monorepo can be a great idea, if the projects are related to each other like mui components.
+
+[Barcode Scanner](https://github.com/eisberg-labs/ngx-barcode-scanner.git)  
+[Ngx Size Me](https://github.com/eisberg-labs/ngx-size-me.git)  
+[Ngx Strength Meter](https://github.com/eisberg-labs/ngx-strength-meter.git)  
 
 
-## Publishing
 
-```
-npm test
-npm run build-all
-lerna version --no-private
-lerna publish from-git --no-private
-lerna publish from-package --registry https://npm.pkg.github.com
-```
-## License
-MIT © [Eisberg Labs](http://www.eisberg-labs.com)

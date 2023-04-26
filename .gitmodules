@@ -1,0 +1,9 @@
+[submodule "projects/ngx-size-me"]
+	path = projects/ngx-size-me
+	url = https://github.com/eisberg-labs/ngx-size-me.git
+[submodule "projects/ngx-barcode-scanner"]
+	path = projects/ngx-barcode-scanner
+	url = https://github.com/eisberg-labs/ngx-barcode-scanner.git
+[submodule "projects/ngx-strength-meter"]
+	path = projects/ngx-strength-meter
+	url = https://github.com/eisberg-labs/ngx-strength-meter.git
